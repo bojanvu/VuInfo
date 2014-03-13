@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/introduction" />
+
+        <TextView
+            android:id="@+id/position_village"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/introduction"
+            android:layout_below="@+id/introduction"
+            android:layout_marginTop="16dp"
+            android:text="@string/position_village" />
+
+        <TextView
+            android:id="@+id/population"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/position_village"
+            android:layout_below="@+id/position_village"
+            android:layout_marginTop="14dp"
+            android:text="@string/population" />
+
+        <TextView
+            android:id="@+id/early_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/population"
+            android:layout_below="@+id/population"
+            android:layout_marginTop="18dp"
+            android:text="@string/early_history" />
+
+        <TextView
+            android:id="@+id/resettlement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/early_history"
+            android:layout_below="@+id/early_history"
+            android:layout_marginTop="21dp"
+            android:text="@string/resettlement" />
+
+        <TextView
+            android:id="@+id/science_culture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/resettlement"
+            android:layout_below="@+id/resettlement"
+            android:layout_marginTop="16dp"
+            android:text="@string/science_culture" />
+
+        <TextView
+            android:id="@+id/vukovar_yugoslavia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/science_culture"
+            android:layout_below="@+id/science_culture"
+            android:layout_marginTop="21dp"
+            android:text="@string/vukovar_yugoslavia" />
+
+        <TextView
+            android:id="@+id/fatherland_war"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/vukovar_yugoslavia"
+            android:layout_below="@+id/vukovar_yugoslavia"
+            android:layout_marginTop="18dp"
+            android:text="@string/fatherland_war" />
+    </RelativeLayout>
+
+</ScrollView>

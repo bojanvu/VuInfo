@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_relayout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop"
+    tools:context=".VuEuActivity" >
+
+</RelativeLayout>

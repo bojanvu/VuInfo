@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/number_firefighters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/firefighters_name"
+            android:layout_alignBottom="@+id/firefighters_name"
+            android:layout_centerHorizontal="true"
+            android:text="@string/number_firefighters"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/police_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/firefighters_name"
+            android:layout_alignRight="@+id/bus_name"
+            android:layout_below="@+id/phone_firefighters"
+            android:layout_marginTop="16dp"
+            android:text="@string/police_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_police"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/police_name"
+            android:layout_alignBottom="@+id/police_name"
+            android:layout_alignLeft="@+id/number_firefighters"
+            android:layout_toLeftOf="@+id/phone_firefighters"
+            android:text="@string/number_police"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_police"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_firefighters"
+            android:layout_below="@+id/phone_firefighters"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/ambulance_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/police_name"
+            android:layout_alignRight="@+id/tourist_name"
+            android:layout_below="@+id/phone_police"
+            android:layout_marginTop="16dp"
+            android:text="@string/ambulance_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ambulance_name"
+            android:layout_alignBottom="@+id/ambulance_name"
+            android:layout_alignLeft="@+id/number_police"
+            android:text="@string/number_ambulance"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_police"
+            android:layout_below="@+id/phone_police"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/number_city_vukovar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/city_vukovar_name"
+            android:layout_alignBottom="@+id/city_vukovar_name"
+            android:layout_alignLeft="@+id/number_firefighters"
+            android:text="@string/number_city_vukovar"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_city_vukovar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_ambulance"
+            android:layout_below="@+id/phone_ambulance"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/museum_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/city_vukovar_name"
+            android:layout_below="@+id/phone_city_vukovar"
+            android:layout_marginTop="18dp"
+            android:text="@string/museum_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_museum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/museum_name"
+            android:layout_alignLeft="@+id/number_city_vukovar"
+            android:text="@string/number_museum"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_museum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_city_vukovar"
+            android:layout_below="@+id/phone_city_vukovar"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/library_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/museum_name"
+            android:layout_below="@+id/phone_museum"
+            android:layout_marginTop="19dp"
+            android:text="@string/library_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/library_name"
+            android:layout_alignBottom="@+id/library_name"
+            android:layout_alignRight="@+id/number_museum"
+            android:text="@string/number_library"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_museum"
+            android:layout_below="@+id/phone_museum"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/hr_dom_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/library_name"
+            android:layout_below="@+id/phone_library"
+            android:layout_marginTop="22dp"
+            android:text="@string/hr_dom_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_hr_dom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hr_dom_name"
+            android:layout_alignBottom="@+id/hr_dom_name"
+            android:layout_alignLeft="@+id/number_library"
+            android:text="@string/number_hr_dom"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_hr_dom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_library"
+            android:layout_below="@+id/phone_library"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/tourist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hr_dom_name"
+            android:layout_below="@+id/phone_hr_dom"
+            android:layout_marginTop="18dp"
+            android:text="@string/tourist_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_tourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tourist_name"
+            android:layout_alignBottom="@+id/tourist_name"
+            android:layout_alignLeft="@+id/number_hr_dom"
+            android:text="@string/number_tourist"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_tourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_hr_dom"
+            android:layout_below="@+id/phone_hr_dom"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/bus_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tourist_name"
+            android:layout_below="@+id/phone_tourist"
+            android:layout_marginTop="16dp"
+            android:text="@string/bus_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bus_name"
+            android:layout_alignLeft="@+id/number_tourist"
+            android:text="@string/number_bus"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_tourist"
+            android:layout_below="@+id/phone_tourist"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/train_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bus_name"
+            android:layout_below="@+id/phone_bus"
+            android:layout_marginTop="14dp"
+            android:text="@string/train_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/number_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/train_name"
+            android:layout_alignRight="@+id/number_bus"
+            android:text="@string/number_train"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/phone_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_bus"
+            android:layout_below="@+id/phone_bus"
+            android:src="@drawable/tel_icon" />
+
+        <ImageButton
+            android:id="@+id/phone_firefighters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/tel_icon" />
+
+        <TextView
+            android:id="@+id/city_vukovar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/phone_city_vukovar"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/city_vukovar_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/firefighters_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/city_vukovar_name"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:text="@string/firefighters_name"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+</ScrollView>

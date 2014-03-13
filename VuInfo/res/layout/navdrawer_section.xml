@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_dark" >
+
+    <TextView
+        android:id="@+id/navmenusection_label"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_dark"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="@string/drawer_section"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

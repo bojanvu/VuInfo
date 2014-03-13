@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VuInfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_lokacija">Moja \n lokacija</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="normal">Normal</string>
+    <string name="sattelite">Satellite</string>
+    <string name="none">None</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terrain">Terrain</string>
+    <string name="current_location">Trenutna lokacija</string>
+    <string name="action_search">Traži</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Pomoć</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_section">Section</string>
+    <string name="drawer_label">Label</string>
+    <string name="title_activity_countries">Countries</string>
+    <string name="title_activity_country">Country</string>
+    <string name="title_activity_eu_countries">EuCountriesActivity</string>
+    <string name="title_activity_eu_country">EuCountryActivity</string>
+    <string name="title_activity_dblist">DBListActivity</string>
+    <string name="title_activity_dbedit">DBEditActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_quiz_result">QuizResultActivity</string>
+    <string name="sports">Sport</string>
+    <string name="football_name">Nogomet</string>
+    <string name="basketball_name">Košarka</string>
+    <string name="volleyball_name">Odbojka</string>
+    <string name="handball_name">Rukomet</string>
+    <string name="tennis_name">Tenis</string>
+    <string name="combat_sports_name">Borilački sportovi</string>
+    <string name="chess_name">Šah</string>
+    <string name="bocce_name">Boćanje</string>
+    <string name="other_sports_name">Ostali sportovi</string>
+    <string name="fitness_name">Fitnes klubovi</string>
+    <string name="sports_association_name">Sportske udruge</string>
+    <string name="maps_name">Mape</string>
+    <string name="sports_row_textview">Sports row</string>
+    <string name="action_bar_sports">Sport</string>
+    <string name="all_sports_name_textview">Name club</string>
+    <string name="all_sports_phone_textview">Phone club</string>
+    <string name="all_sports_mail_textview">Mail club</string>
+    <string name="all_sports_address_textview">Address club</string>
+    <string name="hotels_name">Smještaj</string>
+    <string name="gas_station_name">Benzinske postaje</string>
+    <string name="drugstore_name">Ljekarne</string>
+    <string name="restaurant_name">Restorani</string>
+    <string name="number_firefighters">193</string>
+    <string name="number_police">192</string>
+    <string name="number_ambulance">194</string>
+    <string name="number_city_vukovar">032/456501</string>
+    <string name="number_museum">032/441271</string>
+    <string name="number_library">032/450357</string>
+    <string name="number_hr_dom">032/450697</string>
+    <string name="number_tourist">032/442889</string>
+    <string name="number_bus">032/337799</string>
+    <string name="number_train">032/430340</string>
+    <string name="firefighters_name">Vatrogasci</string>
+    <string name="police_name">Policija</string>
+    <string name="ambulance_name">Hitna</string>
+    <string name="city_vukovar_name">Grad Vukovar</string>
+    <string name="museum_name">Gradski muzej</string>
+    <string name="library_name">Gradska knjižnica</string>
+    <string name="hr_dom_name">Hrvatski dom</string>
+    <string name="tourist_name">Turistička zajednica</string>
+    <string name="bus_name">Autobusni kolodvor</string>
+    <string name="train_name">Željeznički kolodvor</string>
+    <string name="events_title">Saznajte najvažnija događanja u gradu Vukovaru</string>
+    <string name="web_page_name">Web stranica</string>
+    <string name="introduction">Uvod
+				 \n\n
+				Vukovar je grad i najveća hrvatska riječna luka na Dunavu, u hrvatskom dijelu Srijema.
+				 On je i upravno, prosvjetno, gospodarsko i kulturno središte Vukovarsko-srijemske županije. 
+				 Vukovar je stari barokni grad, poznat po Domovinskom ratu i strašnim razaranjima. 
+				 Među mnoštvom vrlo atraktivnih, ali u ratu teško stradalih građevina, ističu se dvorac Eltz iz XVIII st., 
+				 barokne zgrade u središtu grada, franjevački samostan, župna crkva sv.Filipa i Jakova, pravoslavna crkva sv. Nikolaja i dr. 
+				 Izvan grada na obali Dunava prema Iloku nalazi se Vučedol, bogato arheološko nalazište. 
+				 Obredna posudica Vučedolska golubica smatra se svojevrsnim simbolom grada. 
+				 Vučedol je i poznato izletište, raj za ribiče s prekrasnom pješčanom plažom na Orlovu otoku.</string>
+    <string name="position_village">        		 Položaj
+        		 \n\n     
+		        Atraktivno ušće rijeke Vuke u Dunav, šetališta uz Dunav i uređene plaže osiguravaju športsko-rekreacijske aktivnosti tijekom cijele godine, 
+		        a posebice u toplom dijelu godine kada je moguće kupanje. 
+		        Na Dunavu i Vuki popularan je ribolov (som, smuđ, šaran, štuka, kečiga).
+				\n
+				U sklopu grada Vukovara nalaze se naselja: 
+				Trpinjska cesta,
+				Borovo Naselje, 
+				Mitnica, 
+				Petrova gora, 
+				Sajmište, 
+				Supodernica,
+				Lužac, 
+				Centar (stara jezgra grada). 
+				Pod upravom grada Vukovara se nalaze i sela: 
+				Lipovača, Sotin i Jakobovac(naselju pripada Ovčara).   </string>
+    <string name="population">        	Prema narodnosti, većina stanovnika su Hrvati, slijede ih Srbi, Rusini, te Mađari.
+			Od nacionalnih manjina u Vukovaru još ima Nijemaca, Austrijanaca, Ukrajinaca, Slovaka, Crnogoraca, Albanaca itd.
+			\n\n
+			Hrvati
+			\n\n
+			Naseljavanje Hrvata u Podunavlju na današnjem vukovarskom području uslijedilo je krajem 6. i početkom 7. stoljeća, 
+			kada su Hrvati došli i na ostala hrvatska područja. 
+			Trinaest stoljetna naseljenost Hrvata dozvoljava da o njima govorimo kao o starosjediocima na ovom području. 
+			Za vrijeme hrvatskih narodnih vladara u 10. i 11. stoljeću već su svi hrvatski krajevi od Drave i Dunava na sjeveru do Jadranskog mora na jugu ujedinjeni u jedinstvenoj hrvatskoj kraljevini. 
+			Hrvatsko stanovništvo na vukovarskom području pretrpjelo je najveće gubitke za vrijeme turske vladavine (1526.-1687. godine), ali se uspjelo održati.
+			\n\n
+			Srbi
+			\n\n
+			Prvo naseljavanje stanovnika pravoslavne vjere na vukovarskom području uslijedilo je u 16. stoljeću. 
+			Pravoslavni Vlasi, kao pomoćne turske čete (martolozi) naseljavaju se u manjim skupinama. 
+			Poslije oslobođenja od turske vlasti krajem 17. i početkom 18. stoljeća nekoliko stotina srpskih porodica naseljava se u opustjelim selima i nešto u Vukovaru. 
+			Tada je nastala srpska enklava od desetak sela na vukovarskom području i održala se kao relativno zatvorena cjelina. 
+			U novijem razdoblju smišljeno naseljavanje Srba u Vukovar uslijedilo je za vrijeme postojanja jugoslavenskih država dijeljenjem obradivih površina i zapošljavanjem. 
+			Najveći priljev Srba u Vukovaru uslijedio je poslije 1945. godine i odlaska Nijemaca.
+			\n\n
+			Nijemci
+			\n\n
+			Austrijski carevi poticali su naseljavanje novih stanovnika na opustjela područja poslije turske vladavine, da bi dobili radnu snagu. 
+			Već početkom 18. stoljeća u Novom Vukovaru naselili su se njemački obrtnici. 
+			Tijekom 18. i 19. stoljeća naseljava se znatniji broj Nijemaca na vukovarskom području. 
+			Mnogi koji su se ranije naselili u Bačkoj sada prelaze Dunav, jer se oko Vukovara mogla dobiti jeftina zemlja. 
+			Tako u nekim selima kao npr. Sotinu Nijemci čine polovicu stanovništva. 
+			Tijekom i krajem II. svjetskog rata 1944/45. godine i Nijemci teško stradavaju i u Vukovaru ih ostaje neznatan broj.  		        </string>
+    <string name="early_history">        			Rana povijest i antika
+					\n\n
+					Naseljenost vukovarskog kraja prati se kroz pet tisuća godina u kontinuiranom slijedu putem brojnih arheoloških lokaliteta.
+					Ovdje su značajne kulture mlađeg kamenog doba (neolitik) starčevačka, vinčanska i sopotska. 
+					Temeljile su se na sjedilačkom načinu života i izgradnji trajnih nastambi. U upotrebi je polirano kameno oruđe, usavršena je proizvodnja keramike.
+					Migracijskim kretanjima i dolaskom novih etničkih skupina indoeuropskog porijekla uvode se i nove tehnologije. 
+					Počinje razdoblje bakrenog doba (eneolitik) s badenskom, kostolačkom i vučedolskom kulturom. 
+					Nastaju novi oblici proizvodnje, sahranjivanja i vjerovanja i složeniji društveni odnosi među ljudima. 
+					Način gradnje kuća i kultni predmeti svjedoče o povezanosti s mediteranskim kulturnim krugom.
+					Vučedolska kultura posebno je značajna za vukovarski kraj. 
+					Ime je dobila po lokalitetu Vučedol, pet kilometara od Vukovara nizvodno na Dunavu. 
+					Lokalitet je sustavno istražen, otkrivene su radionice za preradbu bakra, karakteristične kuće (megaron) i prekrasna keramika, 
+					koju naročito karakteriziraju bijeli stilizirani ukrasi na crnoj podlozi.
+					U vukovarskom kraju brojna su arheološka nalazišta iz brončanog, starijeg i mlađeg željeznog doba, koja svjedoče o životu Ilira i Kelta. 
+					Nekropola ilirskih grobova na Lijevoj bari u Vukovaru dokazuje da je ovdje bilo i veliko naselje.
+					Rimljani su u osvajačkim pohodima u posljednjim desetljećima prije Krista izbili na Dunav. 
+					Izgradili su brojna utvrđenja, kao granicu ( limes ) prema barbarskim plemenima. 
+					U vukovarskom kraju značajni su rimski lokaliteti Cornacum (Sotin), Cuccium (Ilok) i Ulmo (Tovarnik). 
+					Uz Dunav je vodila i važna rimska cesta. Rimska civilizacija u ovim krajevima utjecala je na unapređivanje gospodarstva, isušivane su močvare i zasađeni prvi vinogradi.
+					\n\n
+					Naseljavanje Hrvata
+					\n\n
+					Nakon propasti rimske civilizacije, velika seoba naroda i avarsko-slavenska ekspanzija od šestog stoljeća dalje dovela je do velikih promjena. 
+					Međuriječje Dunava i Save poprište je velikih sukoba i interesa moćnih država toga vremena. U to vrijeme se ovdje naseljavaju Hrvati.
+					Početke današnjeg Vukovara treba tražiti vrlo rano, sto potvrđuju i arheološki podaci. 
+					Izuzetan topografski položaj visoke obale Dunava kod ušća Vuke bio je važna obrambena točka. 
+					Ovdje je srediste cijelog kraja u vrijeme kada knez Pribina, kao franački vazal, dobije stotinu sela uz rijeku Vuku sredinom 9. stoljeća. 
+					U prvoj polovici 10. stoljeća zabilježeno je da su Mađari opljačkali tvrđavu Vukovo. 
+					Na Lijevoj bari u Vukovaru istraženo je veliko groblje s brojnim nalazima koji pripadaju bjelobrdskoj kulturi. 
+					Datiranje ovih nalaza u 10. ili 11. stoljeće najbolje potvrđuje da je u susjedstvu bilo veliko naselje. 
+					To je vrijeme hrvatskih narodnih vladara, kada su, posebno, za kraljeva Tomislava i Petra Krešimira IV., sjedinjene sve hrvatske zemlje od Drave do mora.
+					U sačuvanim pisanim dokumentima Vukovar se spominje već početkom 13. stoljeća kao Volko, Walk, Wolkov, odnosno hrvatski Vukovo. 
+					Od 14. stoljeća sve je više u upotrebi pomađareni naziv Vukovar. U to je vrijeme Hrvatska u državnopravnoj zajednici s Ugarskom. 
+					Vukovar, kao i susjedni Ilok, u tom su razdoblju čuvari hrvatskog identiteta u dunavsko-savskom međuriječju.
+					Vukovarska tvrđava bila je čvrsto zidana na visokoj dunavskoj obali. U gradu su stanovali obrtnici, trgovci i seljaci. 
+					Već 1231. godine, među prvima u hrvatskim zemljama Vukovar je dobio status slobodnog kraljevskog grada. 
+					Poveljom hercega Kolomana potvrđene su povlastice, koje su štitile vukovarske stanovnike.
+					U Vukovaru je tada sjedište velike Vukovske županije, koja se protezala između Dunava i Save. 
+					Vukovarski kraj je tada gusto naseljen, brojne su utvrde i kmetska sela. 
+					U crkvenom pogledu Vukovska županija je pod katoličkom nad-biskupijom u Pečuhu. 
+					Nekoliko crkvenih redova ima ovdje svoje samostane, a najutjecajniji je franjevački red.
+					U 14. i 15. stoljeću vukovarskim krajem vladaju brojne velikaške porodice. 
+					Pred kraj ovog razdoblja najutjecajniji su Iločki, kada je Nikola proglašen naslovnim kraljem Bosne i kuje svoj novac. 
+					Ilok je u to vrijeme značajno naselje i tvrđava, od 1525. godine ima svoj gradski statut i grb.
+					Turska vladavina - 16. i 17. stoljeće
+					Sto pedeset godina turske vladavine donijele su vukovarskom kraju velike promjene. 
+					Turci su na svom pohodu 1526. godine, pod vodstvom sultana Sulejmana Veličanstvenog zauzeli sve utvrde uz Dunav, 
+					pa tako i Ilok i Vukovar, te su potom izvojevali veliku pobjedu na Mohačkom polju. 
+					Vukovar je izgubio strateško značenje, ali je ostao značajno trgovačko-obrtničko mjesto na važnom prometnom pravcu. 
+					Imao je nekoliko gradskih četvrti, bogomolje, kupelji, prenoćišta i škole. 
+					Pred kraj turske vlasti imao je do 3.000 stanovnika.
+					U isto vrijeme Ilok je značajno tursko upravno i vojno središte. Pretežito je naseljen muslimanima.
+					Tada je starosjedilačko katoličko hrvatsko i madžarsko pučanstvo teško stradalo, 
+					povuklo se u šume ili je pobijeno. Za turske vladavine ovdje djeluju franjevci okupljajući katolički puk. 
+					Na opustjelo područje kao pomoćne turske čete dolaze pravoslavni Vlasi, ali će se povući zajedno s turskom vojskom. 
+					Vukovar je oslobođen 1687. a Ilok 1688. godine.</string>
+    <string name="resettlement">        			Ponovno naseljavanje -18. i 19. Stoljeće
+					\n\n				
+					U Vukovaru je ostalo naseljeno pedesetak kuća. 
+					U opustošeni vukovarski kraj vraća se starosjedilačko i novodoseljeno hrvatsko pučanstvo. 
+					U neka opustjela mjesta naseljavaju se pravoslavni Srbi, koje iz potrebe za radnom snagom prihvaća bečki dvor. 
+					U 18. i 19. stoljeću naseljava se i znatan broj Nijemaca, Mađara, Židova, Rusina, Slovaka i Ukrajinaca. 
+					Tako ovo hrvatsko područje postaje višenacionalno. Hrvatske zemlje su sada u sastavu habsburškog carstva. 
+					Carica Marija Terezija obnovila je 1745. godine slavonske županije, koje su pod upravom Hrvatskog sabora i bana, ali pod pritiskom Mađara.
+					Vukovar je sjedište velike Srijemske županije, koja se protezala između Dunava i Save, na istoku sve do Zemuna, 
+					na zapadu do Osijeka, osim područja Vojne krajine.
+					Velike posjede u Slavoniji dobivaju ili kupuju feudalci. 
+					Grofovi Eltz, koji se ubrajaju u njemačko praplemstvo, dolaze u posjed vukovarskog vlastelinstva. 
+					Filip Karlo Eltz nadbiskup u Mainzu i njemački knez izbornik 1736. godine kupuje ovaj ogroman posjed s 35 naseljenih mjesta. 
+					Tijekom narednih stoljeća zemljišne površine su smanjene agrarnim reformama. 
+					Cijeli razvoj vukovarskog kraja sve do 1945. godine tijesno je vezan uz vukovarsko vlastelinstvo grofova Eltz.
+					U isto vrijeme iločko vlastelinstvo drže talijanski kneževi Odescalchi. 
+					U 18. i 19. stoljeću Vukovar je imao značajke administrativnog, gospodarskog, prometnog i kulturnog središta. 
+					Suvremenici ga smatraju "prijestolnicom Srijema".
+					Već na početku ovog razdoblja polovicu stanovnika Vukovara čine obrtnici i trgovci. 
+					Pučanstvo je izuzetno radino cvjeta obrt, trgovina, svilarstvo, brodogradnja. 
+					Roba se lađama otprema u podunavske zemlje. Rano su osnovane brojne cehovske organizacije koje štite obrtnike. 
+					U Vukovaru je središte trgovine za cijeli zapadni Srijem.
+					Vukovarski kraj ima izvanredne uvjete za agrarnu proizvodnju. Još krajem 19. stoljeća gotovo 80% pučanstva živi od zemljoradnje. 
+					Vlastelinstvo grofova Eltz uznapreduje proizvodnju, sto utječe i na mala seoska gospodarstva. 
+					Pored osnovne proizvodnje žitarica, vinogradarstvo je važna gospodarska grana. 
+					Vukovarska i iločka kvalitetna vina priznata su na svjetskim gospodarskim izložbama. 
+					U govedarstvo se uvode najbolje mliječne pasmine, a ovdje su i čuvene ergele konja poznate u svjetskim razmjerima.
+					Od 1840. godine Vukovar je uključen u stalni parobrodarski promet na Dunavu. 
+					Od 1878. godine priključen je na željeznički promet. Vukovarska luka je najveća pretovarna luka u hrvatskim krajevima. 
+					Kao i u drugim hrvatskim, posebno slavonskim krajevima, u Vukovaru se sporo razvijala industrija. 
+					Intenzivnija primjena parnih strojeva je u drugoj polovici 19. stoljeća i to više u zemljoradnji nego u industriji. 
+					Na spori razvoj industrije utječe nedostatak kapitala. Štedionica u Vukovaru osnovana je1861. godine. 
+					Prvo veliko industrijsko poduzeće Vukovarska kudjeljara proradilo je tek 1905. godine. 
+					Iz ovih pogona Vukovar dobiva električnu energiju od 1909. godine.
+					Spori razvoj industrije utječe na mali porast stanovništva grada. 
+					Prema popisu pučanstva 1900. godine u Vukovaru živi 1/4 stanovništva vukovarskog kotara. 
+					Vukovar tada ima 10.400 stanovnika, od toga po nacionalnosti: preko 4.000 Hrvata, 3.500 Nijemaca, oko 1.600 Srba, 950 Mađara, itd.
+
+					Značajniji industrijski objekti osnova su u razdoblju između dva svjetska rata. 
+					Tvornica »Bata« u obućarsko-gumarskoj grani proizvodnje osnovana je 1931. godine. 
+					U isto vrijeme počinju raditi u Vukovaru značajni pogoni tekstilne industrije. 
+					Industrijalizacija je utjecala na porast gradskog stanovništva, tako da Vukovar ima prema popisu pučanstva 1948. godine preko 17.000 stanovnika.  </string>
+    <string name="science_culture">        			Razvoj znanosti i kulture
+					\n\n
+					U skladu sa svojim položajem u gospodarskom i administrativnom pogledu Vukovar se razvio u prosvjetno, kulturno i zdravstveno središte. 
+					U Vukovaru se u 18. i 19. stoljeću živjelo na europski način.
+					U 18. stoljeću u Vukovaru već djeluju ranarnici, a liječenjem se bave i neki franjevci. 
+					Prvi diplomirani liječnik djeluje od 1763. godine, a ljekarna je otvorena 1791. godine. 
+					Krajem 18. stoljeća vladala je ovdje velika srijemska kuga. Prva mala bolnica otvorena je tek 1857. godine.
+					Već od 1730. godine Vukovar ima razvijeno pučko školstvo. 
+					Iz franjevačke škole razvila se pučka škola u Starom Vukovaru. Novi Vukovar ima svoju školu. 
+					Djelovale su i konfesionalne škole za djecu pravoslavne i židovske vjere, te škole na njemačkom i mađarskom jeziku. 
+					Šegrtska škola osnovana je 1886. a gimnazija 1891. godine.
+					U Vukovaru je osnovana tiskara 1867. godine i izdavala je prve vukovarske novine na njemačkom jeziku "Der Syrmier Bote". 
+					Kasnije je radilo više tiskara, a od brojnih novina isticale su se "Sriemski Hrvat" i "Sriemske novine", koje su izlazile gotovo tri desetljeća na prijelazu u 20. stoljeća.
+					Najstarija književna djela ovoga područja potječu iz pera vukovarskih i iločkih franjevaca. Najpoznatiji književnici iz ovog kraja su Nikola Andrić, Julije Benešić i Antun Gustav Matoš.
+					U Vukovaru su djelovali brojni likovni stvaratelji. 
+					Od starijih su poznati J. F. Mucke, F. K. Giffinger, a u 20. stoljeću gimnazijski profesori Dragan Melkus, Dragutin Renarić, Marijan Detoni, i drugi.
+					Vukovar ima svog nobelovca Lavoslava Ružičku. Rođen je u Vukovaru 1887. godine, a Nobelovu nagradu za kemiju dobio je 1939. godine.
+					Vukovar je imao razvijen društveni život po uzoru na europska shvaćanja. 
+					Samo u razdoblju do prvog svjetskog rata djelovalo je 30-tak društava. 
+					Pjevačka, čitalačka, športska i potpomagajuća društva imala su svoje čitaonice, organizirala koncerte i zabave. 
+					Društva su često bila organizirana na nacionalnoj osnovi. 
+					Prva predstava na hrvatskom jeziku održana je 1821. godine, bilo je to dramsko djelo gvardijana franjevačkog samostana Grge Čevapovića. 
+					Najutjecajnije hrvatsko društvo je pjevačko društvo »Dunav«. 
+					U Vukovaru je 1922. godine otvoren Hrvatski dom, stjecište svih kulturnih zbivanja.</string>
+    <string name="vukovar_yugoslavia" formatted="false">        			Vukovar pod Jugoslavijom
+					\n\n
+					U razdoblju između dva svjetska rata, u okvirima jugoslavenske države, vukovarsko područje, kao i ostali hrvatski krajevi, nalazilo se pod izrazitim velikosrpskim pritiskom. 
+					Teritorijalnim podjelama na oblasti i banovine hrvatsko područje namjerno je cijepano. 
+					Intervencijama jugoslavenske državne vlasti se mijenjalo sastav stanovništva. 
+					Površine dobivene agrarnom reformom dijele se solunskim dobrovoljcima i općenito stanovništvu iz srpskih krajeva. 
+					Čak se i zapošljavanje u tvornicama vješto koristilo da se mijenja hrvatski značaj vukovarskog kraja.
+					Na početku ovog razdoblja u Vukovaru je vrlo snažan radnički pokret, koji svoje uporište nalazi u neriješenom socijalnom i nacionalnom pitanju u tadašnjoj jugoslavenskoj državi. 
+					Ovo je posebno naglašeno održavanjem II. kongresa Socijalističke radničke partije Jugoslavije 1920. godine, koja na tom kongresu dobiva i novo ime - Komunistička partija Jugoslavije (iako je sama država jugoslavensko ime ponijela tek 1929. godine). 
+					Pored svih pritisaka velikosrpske politike toga doba u Vukovaru je sačuvana snažna hrvatska nacionalna svijest i s olakšanjem je dočekano osnivanje Banovine Hrvatske 1939. godine.
+					Na žalost, slijede tragični događaji Drugog svjetskog rata. Međunacionalni sukobi izazvani ranije sada se zaoštravaju i u Vukovaru. 
+					Grad nije pretrpio veća razaranja. Sastav stanovništva znatno se promijenio, posebno progonima Židova, Srba i antifašistički orijentiranih Hrvata,te progonom i iseljavanjem Nijemaca (["Donauschwaben"]) pred kraj i poslije rata.
+					Poslije 1945. godine u novoj jugoslavenskoj državi i šidski je kotar odvojen od hrvatskih zemalja. 
+					Ostatak Srijema, koji nije u sastavu današnje Hrvatske, izdvojen je još ranije prilikom osnivanja Banovine Hrvatske. 
+					Za razliku od predratnoga "sakaćenja", u zamjenu za šidski kotar, do tada već mahom naseljen Srbima, 
+					Hrvatska je dobila Baranju koja nikad do tad u povijesti nije bila u Hrvatskoj. 
+					Vukovarsko-iločki kraj, ostao je u sastavu Hrvatske u administrativnom pogledu činio je općinu Vukovar.
+					U skladu sa Zakonom o agrarnoj reformi i kolonizaciji iz 1945. provedena je nacionalizacija dobara koja je pretvorena u državno vlasništvo. 
+					Nakon 1948., raskola sa SSSR-om i kretanja novim putem, državno je vlasništvo postalo društvenim (koje jede facto identično radničkom dioničarstvu, bez preciziranog vlasništva u vidu dionica). 
+					U vukovarskom kraju dolazi do brze industrijalizacije, iznad prosjeka u odnosu na ostale dijelove Hrvatske. 
+					Na žalost industrija je usko specijalizirana, neatraktivna s masovnim zapošljavanjem radne snage. 
+					U isto vrijeme agrarna proizvodnja je autarhična. Godine 1990. od ukupno zaposlenih u gospodarstvu vukovarskog kraja oko 60% radi u industriji a samo 12% u poljoprivredi, u društvenom sektoru.
+					Neki događaji iz vremena Rankovićeve strahovlade u Jugoslaviji bili su indikativni za velikosrpski pohod od 30 godina poslije. 
+					Arhitektonski neprimjerenim zahvatom uklonjena je građevina hrvatskog atributa koju je projektirao velikan hrvatske arhitekture Aleksandar Freudenreich, Hrvatski dom u Vukovaru.  
+					Na mjestu gdje je bio definiran povijesni arhitektonski korpus kompleksa Hrvatskoga doma, koji se je održao sve do početka 1960-ih, srušen je stari klasicistički hotel "K lavu", a nije dugo prošlo, a srušena je i ulična zgrada Hrvatskog doma. 
+					Već 1966. je godine na tom mjestu, gdje je bio Hrvatski dom, izgrađena arhitektonski neprimjerena građevina, aneks "Centra za kulturu", u koji se ulazilo s novoformiranoga "trga" (zapravo čistine) koja je nastala tako što je srušen stari hotel. 
+					Drugim riječima, uklonjen je hrvatski dom, kao što su velikosrbi napravili s hrvatskim domovima (i ljudima) 1990-ih, na način da od prostora napravili čistinu (usp. etničko čišćenje).</string>
+    <string name="fatherland_war">        			Vukovar u Domovinskom ratu 
+					\n\n
+					Osamostaljenjem Hrvatske 1991. godine došlo je do otvorene agresije Srbije na Vukovar i Hrvatsku. 
+					Nakon što je većina srpskog stanovništva (sva srpska djeca) pobjegla iz grada, počela je bitka za Vukovar, u kojoj su hrvatske snage branile grad protiv vojske JNA, 
+					srpskih četničkih i drugih paravojnih formacija i srpske vojske, koja je imala golemu premoć u ljudstvu i tehnici. 
+					Srpsko je granatiranje sravnilo grad sa zemljom. 
+					Nakon tri mjeseca ogorčenih borba, Vukovar je 18. studenog 1991.godine pao u srpske ruke.
+					U agresiji na Vukovar 1991. godine, JNA i srpske paravojne postrojbe ubile su najmanje 1739 osoba.  
+					Nakon oslobodilačkih akcija u drugim krajevima Hrvatske 1995. godine, počeli su pregovori o povratku Vukovara pod hrvatsku vlast. 
+					Lokalna je samouprava u Vukovaru počela djelovati sredinom 1997. godine.
+					Dana 8. lipnja 1997. godine, "Vlak mira" stigao je iz Zagreba u Vukovar. 
+					Bio je sastavljen od 21 vagona iz svih hrvatskih županija, a u njemu su bili najviši politički dužnosnici, 
+					crkveni velikodostojnici, članovi diplomatskog zbora, te brojni uglednici iz javnog, kulturnog, znanstvenog i gospodarskog života Hrvatske. 
+					On je označio povratak Hrvatske u Vukovar, u hrvatsko Podunavlje, na njene istočne granice. 
+					Predsjednik Tuđman je nazvao Vlak mira simbolom povratka prognanika i pružanja ruke onima, koji nisu okrvavili ruke. 
+					Obraćajući se okupljenom narodu, predsjednik Tuđman je pozvao na praštanje jer pobjednik, 
+					koji ne zna praštati sije klice novih zala, a hrvatski narod to ne želi niti je želio.
+					Hrvatsko Podunavlje je mirno reintegrirano u Republiku Hrvatsku 15. siječnja 1998. godine. 
+					Otad se mnogo radi na obnovi grada i povratku svih stanovnika, te se oživljavaju kulturni i drugi vidovi gradskog života.</string>
+
+</resources>

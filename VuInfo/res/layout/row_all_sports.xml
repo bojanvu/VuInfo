@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/all_sports_icon_imageview"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/all_sports_name_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/all_sports_address_textview"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/all_sports_icon_imageview"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:text="@string/all_sports_name_textview"
+        android:textColor="#336699"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/all_sports_address_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/all_sports_mail_textview"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/all_sports_icon_imageview"
+        android:gravity="center_vertical"
+        android:text="@string/all_sports_address_textview"
+        android:textColor="#336699"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/all_sports_phone_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/all_sports_icon_imageview"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/all_sports_icon_imageview"
+        android:gravity="center_vertical"
+        android:text="@string/all_sports_phone_textview"
+        android:textColor="#336699"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/all_sports_mail_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/all_sports_icon_imageview"
+        android:layout_toRightOf="@+id/all_sports_icon_imageview"
+        android:gravity="center_vertical"
+        android:text="@string/all_sports_mail_textview"
+        android:textColor="#336699"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

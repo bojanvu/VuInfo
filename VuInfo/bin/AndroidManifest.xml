@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.algebra.vuinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <permission
+        android:name="com.algebra.vuinfo.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.algebra.vuinfo.permission.MAPS_RECEIVE" />
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vu_info_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Navigation Drawer Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+
+        <!-- VuBusStop Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.VuBusStopActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- VuEU Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.VuEuActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- EuCountries Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.EuCountriesActivity"
+            android:label="@string/title_activity_eu_countries" >
+        </activity>
+
+        <!-- EuCountry Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.EuCountryActivity"
+            android:backgroundDimEnabled="false"
+            android:label="@string/title_activity_eu_country" >
+        </activity>
+
+        <!-- About Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+
+        <!-- Quiz Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.QuizActivity"
+            android:label="@string/title_activity_quiz" >
+        </activity>
+
+        <!-- QuizResult Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.QuizResultActivity"
+            android:label="@string/title_activity_quiz_result" >
+        </activity>
+
+        <!-- Sports Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.SportsActivity"
+            android:label="@string/sports"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- Football Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.FootballActivity"
+            android:label="@string/football_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Basketball Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.BasketballActivity"
+            android:label="@string/basketball_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Volleyball Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.VolleyballActivity"
+            android:label="@string/volleyball_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Handball Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.HandballActivity"
+            android:label="@string/handball_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Tennis Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.TennisActivity"
+            android:label="@string/tennis_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- CombatSports Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.CombatSportsActivity"
+            android:label="@string/combat_sports_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Chess Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.ChessActivity"
+            android:label="@string/chess_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Bocce Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.BocceActivity"
+            android:label="@string/bocce_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportActivity" />
+        </activity>
+
+        <!-- OtherSports Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.OtherSportsActivity"
+            android:label="@string/other_sports_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Fitness Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.FitnessActivity"
+            android:label="@string/fitness_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- SportsAssociation Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.SportsAssociationActivity"
+            android:label="@string/sports_association_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Maps Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.MapsActivity"
+            android:label="@string/maps_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.SportsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.SportsActivity" />
+        </activity>
+
+        <!-- Hotels Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.HotelsActivity"
+            android:label="@string/hotels_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- Gas Station Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.GasStationActivity"
+            android:label="@string/gas_station_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- Drug store Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.DrugstoreActivity"
+            android:label="@string/drugstore_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- Restaurant Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.RestaurantActivity"
+            android:label="@string/restaurant_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- Web Activity -->
+        <activity
+            android:name="com.algebra.vuinfo.activities.WebViewActivity"
+            android:label="@string/web_page_name"
+            android:parentActivityName="com.algebra.vuinfo.activities.NavDrawerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.algebra.vuinfo.activities.NavDrawerActivity" />
+        </activity>
+
+        <!-- Google Maps -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB47AX_uyrrg3NK5OsYY945_2JXzkUnFf4" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
